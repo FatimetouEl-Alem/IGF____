@@ -1,0 +1,11 @@
+PORTAIL DES INSTITUTIONS – IGF
+
+Déploiement : copier tout le contenu (fichiers .html + dossier assets) à la racine d'un hébergement web statique. Page d'entrée : index.html.
+Test local : python3 -m http.server 8080 puis http://localhost:8080
+
+Compte de démonstration
+  Identifiant  : mariem.ahmed@institution.mr
+  Mot de passe : Portail@2026
+
+Comptes modifiables dans assets/js/auth.js (liste ACCOUNTS).
+IMPORTANT : connexion de démonstration côté navigateur ; en production, la vérification doit être faite par un serveur.
